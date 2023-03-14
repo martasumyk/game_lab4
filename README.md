@@ -1,6 +1,7 @@
 # game_lab4
 
 `Task #5`
+
 This task contains five classes: Room; Character -> Enemy, Friend; Item.
 
 
