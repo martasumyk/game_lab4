@@ -15,3 +15,4 @@ This taks has similar classes to previous: Character -> Enemy, Friend; Item; Loc
 
 The main class that contains all other is Location. 
 
+The main task is to get from UCU to city centre without being killed.
