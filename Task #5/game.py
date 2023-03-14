@@ -133,7 +133,7 @@ class Character:
         Returns string with character name.
         '''
         return self.name
-
+killed_enemies = 0
 class Enemy(Character):
     '''
     Class to create and initialize the enemy.
@@ -164,6 +164,11 @@ class Enemy(Character):
         Returns the weakness of the enemy.
         '''
         return self.weakness
+    
+    def get_defeated(self):
+        global killed_enemies
+        killed_enemies+=1
+        return killed_enemies
 
 
 class Friend(Character):
